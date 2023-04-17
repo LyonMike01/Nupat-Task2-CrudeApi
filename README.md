@@ -3,25 +3,20 @@ This is a simple CRUD API that allows users to create, read, update, and delete 
 
 # Requireement
 
-Node.js v14.16.1 or higher
-MongoDB
+* Node.js v14.16.1 or higher
+* MongoDB
 
 
 # Installation
 
-Clone the repository
+* Clone the repository
 Install dependencies using npm install
-Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI
+*Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI
 
 simply run 
 ```
 npm run dev
 ```
-
-# Authentication
-Authentication is required at the getallmaleusers endpoint. 
-Users can create an account by sending a POST request to /api/createuser endpoint and can authenticate by sending a GET request to /api/getuser/:id. 
-Once authenticated, users can send requests with their token in the Authorization header to the getallmaleusers route.
 
 
 # Endpoints
@@ -47,15 +42,10 @@ Returns only male user (Requires JWT authorisation)
 
 Errors are returned with appropriate HTTP status codes and error messages in the response body.
 
+# Authentication
+* Authentication is required at the getallmaleusers endpoint. 
+* Users can create an account by sending a POST request to /api/createuser endpoint and can authenticate by sending a GET request to /api/getuser/:id. 
+* Once authenticated, users can send requests with their token in the Authorization header to the getallmaleusers route.
 
 
-# Development Details
-
-Test Email Address
-```
-{
-    "email" : "engineering@topuniverse.org",
-    "password" : "Ab12345!@#$%" 
-}
-```
-# cohort2.0_backend_api
+# Nupat-Intership-Task2
