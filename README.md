@@ -11,7 +11,8 @@ This is a simple CRUD API that allows users to create, read, update, and delete 
 
 * Clone the repository
 Install dependencies using npm install
-*Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI
+
+Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI
 
 simply run 
 ```
@@ -38,14 +39,16 @@ Deletes userr with the specified ID.
 GET /api/getallmaleuser/:gender
 Returns only male user (Requires JWT authorisation)
 
-# Error Handling
-
-Errors are returned with appropriate HTTP status codes and error messages in the response body.
-
 # Authentication
-* Authentication is required at the getallmaleusers endpoint. 
-* Users can create an account by sending a POST request to /api/createuser endpoint and can authenticate by sending a GET request to /api/getuser/:id. 
-* Once authenticated, users can send requests with their token in the Authorization header to the getallmaleusers route.
+Authentication is required at the getallmaleusers endpoint.
+
+Users can create an account by sending a POST request to /api/createuser endpoint and can authenticate by sending a GET request to /api/getuser/:id.
+
+Once authenticated, users can send requests with their token in the Authorization header to the getallmaleusers route.
+
+
+# Error Handling
+Errors are returned with appropriate HTTP status codes and error messages in the response body.
 
 
 # Nupat-Intership-Task2
