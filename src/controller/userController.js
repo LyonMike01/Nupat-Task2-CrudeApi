@@ -34,14 +34,17 @@ exports.createNewUser = async (req, res, next) => {
         
 exports.updateUserDetails = async (req, res, next) => {
   try {
-    const { _id } = req.params;
+    const { id } = req.params;
+
     const body = req.body;
-    // console.log(body, _id);
+
 
     const details = {
-      _id,
+      id,
       ...body
     };
+
+    
     const user = await updateUser(details);
     return res.status(202).json({ msg: "User Details Updated Successfyully", data: user });
   } catch (err) {
@@ -52,9 +55,8 @@ exports.updateUserDetails = async (req, res, next) => {
 
 exports.deleteUserDetails = async (req, res, next) => {
   try {
-    const { _id } = req.params;
-    // console.log( _id);
-    await deleteUser({ _id });
+    const { id } = req.params;
+    await deleteUser({ id });
     return res.status(202).json({ message: "User Deleted" });
   } catch (err) {
     return res.status(404).json({ err, message: "User not found" });
@@ -107,8 +109,6 @@ exports.getMaleUser = async (req, res, next) => {
   try {
 
     const key = req.params.gender;
-
-    // console.log(key);
     
     if (key != "male") {
         return res.status(400).json({

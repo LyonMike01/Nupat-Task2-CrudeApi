@@ -7,9 +7,13 @@ This is a simple CRUD API that allows users to create, read, update, and delete 
 * MongoDB
 
 
+# Postman Documentation Link
+
 # Installation
 
-* Clone the repository
+https://documenter.getpostman.com/view/21621604/2s93Xzwh6r
+
+Clone the repository
 Install dependencies using npm install
 
 Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI

@@ -8,8 +8,15 @@
     "start": "node app.js",
     "dev": "bash scripts/dev.sh"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/LyonMike01/Nupat-Task2-CrudeApi.git"
+  },
   "author": "Titi Tope Mike (Lyon Mike)",
-  "license": "ISC",
+  "license": "ISC",  "bugs": {
+    "url": "https://github.com/LyonMike01/Nupat-Task2-CrudeApi/issues"
+  },
+  "homepage": "https://github.com/LyonMike01/Nupat-Task2-CrudeApi",
   "dependencies": {
     "accesscontrol": "^2.2.1",
     "body-parser": "^1.20.0",

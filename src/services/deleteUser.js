@@ -5,11 +5,11 @@ const { checkUser } = require ("./checkUser");
 
 const deleteUser = async (value) => {
   
-  const { _id } = value;
+  const { id } = value;
 
-  await checkUser(User, { _id });
+  await checkUser(User, { id });
   
-  await User.deleteOne({ _id });
+  await User.deleteOne({ id });
 };
 
 

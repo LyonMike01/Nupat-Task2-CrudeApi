@@ -18,8 +18,8 @@ const {
 // user routes
 
 router.post("/createuser", createNewUser);
-router.put("/updateuser/:_id", updateUserDetails);
-router.delete("/deleteuser/:_id", deleteUserDetails);
+router.put("/updateuser/:id", updateUserDetails);
+router.delete("/deleteuser/:id", deleteUserDetails);
 router.get("/getallusers", getAllUsers);
 router.get("/getuser/:id",  getUserByID);
 router.get("/getallmaleuser/:gender", verifyToken, getMaleUser);

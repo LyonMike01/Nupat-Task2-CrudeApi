@@ -7,12 +7,12 @@ const { checkUser } = require ("./checkUser");
 
 const updateUser = async (value) => {
 
-  const { _id, ...others } = await value;
+  const { id, ...others } = await value;
 
-  await checkUser(User, { _id });
+  await checkUser(User, { id });
 
   const updatedUser = await User.findByIdAndUpdate(
-    _id,
+    id,
     { ...others },
     { new: true }
   ).select("_id");
