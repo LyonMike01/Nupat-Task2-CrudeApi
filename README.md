@@ -1,17 +1,17 @@
 # PROJECT IINTRODUCTION
 This is a simple CRUD API that allows users to create, read, update, and delete data from a database. The API is built using Node.js and Express, and uses MongoDB as the database.
 
-# Requireement
+# Requirement
 
 * Node.js v14.16.1 or higher
 * MongoDB
 
 
 # Postman Documentation Link
+https://documenter.getpostman.com/view/21621604/2s93Xzwh6r
+
 
 # Installation
-
-https://documenter.getpostman.com/view/21621604/2s93Xzwh6r
 
 Clone the repository
 Install dependencies using npm install
