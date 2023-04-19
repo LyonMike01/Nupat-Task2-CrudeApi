@@ -1,3 +1,7 @@
+# Nupat-Intership-Task2
+
+
+
 # PROJECT IINTRODUCTION
 This is a simple CRUD API that allows users to create, read, update, and delete data from a database. The API is built using Node.js and Express, and uses MongoDB as the database.
 
@@ -54,5 +58,3 @@ Once authenticated, users can send requests with their token in the Authorizatio
 # Error Handling
 Errors are returned with appropriate HTTP status codes and error messages in the response body.
 
-
-# Nupat-Intership-Task2
