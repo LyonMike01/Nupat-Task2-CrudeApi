@@ -17,6 +17,7 @@ const UserSchema = new mongoose.Schema({
     gender: {
 
         type: String,
+        enum: ["male", "female"],
         required: true
         
     },
@@ -33,7 +34,7 @@ const UserSchema = new mongoose.Schema({
 
         type: String,
         minlength: 6,
-        maxlength: 1023,
+        maxlength: 15,
 
       },
 
