@@ -3,16 +3,17 @@
 
 
 # PROJECT IINTRODUCTION
-This is a simple CRUD API that allows users to create, read, update, and delete data from a database. The API is built using Node.js and Express, and uses MongoDB as the database.
+This is a simple CRUD API that allows users to create, update, Get user by ID and Delete User from a database. 
+The API is built using Node.js and Express and it uses MongoDB as the database.
+
+## Important Notice
+Make sure  to include /api in the live link inorder to be able to access the home page and subsequent pages
+
 
 # Requirement
 
 * Node.js v14.16.1 or higher
 * MongoDB
-
-
-# Postman Documentation Link
-https://documenter.getpostman.com/view/21621604/2s93Xzwh6r
 
 
 # Installation
@@ -27,8 +28,35 @@ simply run
 npm run dev
 ```
 
+# Postman Documentation Link
+https://documenter.getpostman.com/view/21621604/2s93Xzwh6r
 
-# Endpoints
+
+# Live Links
+
+### Home Page (Get Request)
+https://crud-task2-nupat-internship.onrender.com/api
+
+### Get all Users (Get Request)
+https://crud-task2-nupat-internship.onrender.com/api/getallusers
+
+### Create User (Post Request)
+https://crud-task2-nupat-internship.onrender.com/api/createuser
+
+### Create User (Post Request)
+https://crud-task2-nupat-internship.onrender.com/api/createuser
+
+### Delete User (Delete Request)
+https://crud-task2-nupat-internship.onrender.com/api/deleteuser/"USERIDHERE"
+
+### Get a User by ID (Get Request)
+https://crud-task2-nupat-internship.onrender.com/api/getuser/"USERIDHERE"
+
+### Get all Male User by Gender (Get Request)
+https://crud-task2-nupat-internship.onrender.com/api/getallmaleuser/"USERGENDERHERE"
+
+
+# API Development Endpoints
 POST /api/createuser
 Creates a new user in the database.
 
