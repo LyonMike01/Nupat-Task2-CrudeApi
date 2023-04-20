@@ -33,16 +33,16 @@ npm run dev
 https://documenter.getpostman.com/view/21621604/2s93Xzwh6r
 
 
-# Live Links
+# Live Link
 
 ### Home Page (Get Request)
 https://crud-task2-nupat-internship.onrender.com/api
 
+
+# Subsequent Live Links
+
 ### Get all Users (Get Request)
 https://crud-task2-nupat-internship.onrender.com/api/getallusers
-
-### Create User (Post Request)
-https://crud-task2-nupat-internship.onrender.com/api/createuser
 
 ### Create User (Post Request)
 https://crud-task2-nupat-internship.onrender.com/api/createuser
