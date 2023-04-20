@@ -2,12 +2,12 @@
 
 
 
-# PROJECT IINTRODUCTION
+# PROJECT INTRODUCTION
 This is a simple CRUD API that allows users to create, update, Get user by ID and Delete User from a database. 
 The API is built using Node.js and Express and it uses MongoDB as the database.
 
 ## Important Notice
-Make sure  to include /api in the live link inorder to be able to access the home page and subsequent pages
+Make sure to include */api* in the live link home page and subsequent endpoints in order to be able to access the endpoints
 
 
 # Requirement
@@ -47,13 +47,13 @@ https://crud-task2-nupat-internship.onrender.com/api/createuser
 https://crud-task2-nupat-internship.onrender.com/api/createuser
 
 ### Delete User (Delete Request)
-https://crud-task2-nupat-internship.onrender.com/api/deleteuser/"USERIDHERE"
+https://crud-task2-nupat-internship.onrender.com/api/deleteuser/*USERIDHERE*
 
 ### Get a User by ID (Get Request)
-https://crud-task2-nupat-internship.onrender.com/api/getuser/"USERIDHERE"
+https://crud-task2-nupat-internship.onrender.com/api/getuser/*USERIDHERE*
 
 ### Get all Male User by Gender (Get Request)
-https://crud-task2-nupat-internship.onrender.com/api/getallmaleuser/"USERGENDERHERE"
+https://crud-task2-nupat-internship.onrender.com/api/getallmaleuser/*USERGENDERHERE*
 
 
 # API Development Endpoints
