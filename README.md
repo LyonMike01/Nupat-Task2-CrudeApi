@@ -22,7 +22,7 @@ Clone the repository.
 
 Install dependencies using npm install.
 
-Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI
+Create a .env file in the root directory and add your MongoDB connection string as DATABASE
 
 simply run 
 ```
