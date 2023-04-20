@@ -18,8 +18,9 @@ Make sure to include */api* in the live link home page and subsequent endpoints 
 
 # Installation
 
-Clone the repository
-Install dependencies using npm install
+Clone the repository.
+
+Install dependencies using npm install.
 
 Create a .env file in the root directory and add your MongoDB connection string as MONGODB_URI
 
